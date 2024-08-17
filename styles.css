@@ -1,0 +1,68 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Un suave azul claro */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    color: #004080; /* Azul marino oscuro */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Formulario de ingredientes */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas y campos de entrada */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0066cc; /* Azul medio */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botón de cálculo */
+button {
+    width: 100%;
+    background-color: #0073e6; /* Azul más oscuro */
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5; /* Azul aún más oscuro al pasar el mouse */
+}
+
+/* Resultado */
+h2 {
+    text-align: center;
+    color: #004080; /* Azul marino oscuro */
+    font-size: 2em;
+    margin-top: 30px;
+}

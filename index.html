@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Empanadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Precio de Empanadas</h1>
+    <form id="ingredientes-form">
+        <div>
+            <label for="pollo-cantidad">Cantidad de Pollo (kg):</label>
+            <input type="number" id="pollo-cantidad" required>
+        </div>
+        <div>
+            <label for="pollo-precio">Precio Total de Pollo:</label>
+            <input type="number" id="pollo-precio" required>
+        </div>
+        <div>
+            <label for="carne-cantidad">Cantidad de Carne (kg):</label>
+            <input type="number" id="carne-cantidad" required>
+        </div>
+        <div>
+            <label for="carne-precio">Precio Total de Carne:</label>
+            <input type="number" id="carne-precio" required>
+        </div>
+        <div>
+            <label for="queso-cantidad">Cantidad de Queso (kg):</label>
+            <input type="number" id="queso-cantidad" required>
+        </div>
+        <div>
+            <label for="queso-precio">Precio Total de Queso:</label>
+            <input type="number" id="queso-precio" required>
+        </div>
+        <div>
+            <label for="jamon-cantidad">Cantidad de Jamon (kg):</label>
+            <input type="number" id="jamon-cantidad" required>
+        </div>
+        <div>
+            <label for="jamon-precio">Precio Total de Jamon:</label>
+            <input type="number" id="jamon-precio" required>
+        </div>
+        <div>
+            <label for="morron-cantidad">Cantidad de Morron (kg):</label>
+            <input type="number" id="morron-cantidad" required>
+        </div>
+        <div>
+            <label for="morron-precio">Precio Total de Morron:</label>
+            <input type="number" id="morron-precio" required>
+        </div>
+        <div>
+            <label for="verdeo-cantidad">Cantidad de Verdeo (kg):</label>
+            <input type="number" id="verdeo-cantidad" required>
+        </div>
+        <div>
+            <label for="verdeo-precio">Precio Total de Verdeo:</label>
+            <input type="number" id="verdeo-precio" required>
+        </div>
+        <div>
+            <label for="soja-cantidad">Cantidad de Suplemento Soja (gr):</label>
+            <input type="number" id="soja-cantidad" required>
+        </div>
+        <div>
+            <label for="soja-precio">Precio Total de Suplemento Soja:</label>
+            <input type="number" id="soja-precio" required>
+        </div>
+        <div>
+            <label for="aceite-cantidad">Cantidad de Aceite (Lt):</label>
+            <input type="number" id="aceite-cantidad" required>
+        </div>
+        <div>
+            <label for="aceite-precio">Precio Total de Aceite:</label>
+            <input type="number" id="aceite-precio" required>
+        </div>
+        <div>
+            <label for="caldo-precio">Precio Total de Caldos:</label>
+            <input type="number" id="caldo-precio" required>
+        </div>
+        <div>
+            <label for="cebolla-precio">Precio Bolson de Cebolla:</label>
+            <input type="number" id="cebolla-precio" required>
+        </div>
+        <div>
+            <label for="tapas-precio">Precio Total de Tubo Tapas:</label>
+            <input type="number" id="tapas-precio" required>
+        </div>
+        <div>
+            <label for="cajas-cantidad">Cantidad de Cajas:</label>
+            <input type="number" id="cajas-cantidad" required>
+        </div>
+        <div>
+            <label for="cajas-precio">Precio Total de Cajas:</label>
+            <input type="number" id="cajas-precio" required>
+        </div>
+        <div>
+            <label for="fondo-precio">Precio Total de Fondo de Pizza:</label>
+            <input type="number" id="fondo-precio" required>
+        </div>
+        <button type="button" onclick="calcularPrecio()">Calcular Precio</button>
+    </form>
+    <h2 id="resultado"></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
